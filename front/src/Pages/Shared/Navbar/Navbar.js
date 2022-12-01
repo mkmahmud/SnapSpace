@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const menus = <>
-        <li><Link>Get in touch</Link></li>
-        <li><Link><button className='bg-green-300 py-2 px-5 bg-[#FCE72D] rounded-full'>Start Createing</button></Link></li>
-        <li><Link><button className='bg-green-300 py-2 px-5 bg-[#FFFFFF] rounded-full'>Log In</button></Link></li>
+        <li><Link className='font-bold'>Get in touch</Link></li>
+        <li><Link className='font-bold'><button className='bg-green-300 py-2 px-5 bg-[#FCE72D] rounded-full'>Start Createing</button></Link></li>
+        <li><Link className='font-bold'><button className='bg-green-300 py-2 px-5 bg-[#FFFFFF] rounded-full'>Log In</button></Link></li>
 
     </>
 
