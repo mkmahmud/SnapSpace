@@ -15,7 +15,7 @@ const Banar = () => {
                     <p className="py-6">We have built an AI driven generative design platform that will create floorplans based on your specific requirements.</p>
                     <button className='bg-green-300 py-2 px-5 bg-[#FCE72D] rounded-full font-bold'>Start Createing</button>
                 </div>
-                <img src={banarimage} className="" alt='' />
+                <img src={banarimage} className="w-full md:w-11/12 " alt='' />
             </div>
         </div>
     );
