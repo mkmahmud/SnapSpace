@@ -6,7 +6,7 @@ import Frame2 from '../../../Assets/Frame2.png'
 
 const Steps = () => {
     return (
-        <div className='step'>
+        <div className='step bg-[#8DAEFF]'>
             <h2 className='text-[#1F2C56] text-[60px] font-bold py-20'>All it takes is 3 easy steps</h2>
             <div className="steps flex justify-evenly py-15">
                 <div className="singelStep">
