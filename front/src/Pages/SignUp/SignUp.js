@@ -123,7 +123,7 @@ const SignUp = () => {
 
 
                     {
-                        activebtn ? <button type='submit' onClick={handelRegister} className='bg-[#8DAEFF] text-[#1F2C56] px-10 text-xs py-3 rounded-full'>Register</button> : <button className='bg-[#79809A] text-[#1F2C56] px-10 text-xs py-3 rounded-full' disabled>Register</button>
+                        activebtn ? <button type='submit' onClick={handelRegister} className='font-bold bg-[#8DAEFF] text-[#1F2C56] px-10 text-xs py-3 rounded-full'>Register</button> : <button className='bg-[#79809A] text-[#1F2C56] px-10 text-xs py-3 rounded-full' disabled>Register</button>
                     }
                 </form>
 
