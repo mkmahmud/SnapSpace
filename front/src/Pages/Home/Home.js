@@ -5,11 +5,6 @@ import Content from './Content/Content';
 
 const Home = () => {
 
-
-  const { demo } = useContext(UserAuth)
-
-  console.log(demo)
-
   return (
     <div>
       <Banar></Banar>

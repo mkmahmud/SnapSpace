@@ -5,6 +5,8 @@ import {
   } from "react-router-dom";
 import Main from '../../Layout/Main';
 import Home from '../../Pages/Home/Home';
+import SignIn from '../../Pages/SignIn/SignIn';
+import SignUp from '../../Pages/SignUp/SignUp';
 
 
 
@@ -18,6 +20,14 @@ const Router = () => {
                 {
                     path:'/',
                     element:<Home></Home>
+                },
+                {
+                    path:'/login',
+                    element:<SignIn></SignIn>
+                },
+                {
+                    path:'/signup',
+                    element:<SignUp></SignUp>
                 }
             ]
         }
