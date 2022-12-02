@@ -1,12 +1,19 @@
 import React, { useContext, useEffect, useReducer, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from '../../Context/AuthContext/AuthContext';
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SignUp = () => {
-
+  // Toast
+  const success = (text) => toast.success(text);
+  const errortoast = (text) => toast.error(text);
     // Context
     const { createUser } = useContext(UserAuth)
 
+
+    // Navigate
+    const navigate = useNavigate();
 
     const [activebtn, setActivebtn] = useState(false)
 
@@ -19,9 +26,6 @@ const SignUp = () => {
         snaptool: '',
         email: '',
         password: ''
-
-
-
     }
 
 
@@ -56,16 +60,17 @@ const SignUp = () => {
             .then((userCredential) => {
                 // Signed in 
                 const user = userCredential.user;
-                console.log(user)
-                // ...
+                success('Registetion Successfull')
+                setTimeout(function(){ navigate('/wellcome') },2000);
             })
             .catch((error) => {
-                const errorCode = error.code;
                 const errorMessage = error.message;
-                console.log(error)
+                if(errorMessage == 'Firebase: Error (auth/email-already-in-use).'){
+                    errortoast('Email Already in Used')
+                }
                 // ..
             });
-        console.log(state)
+            
     }
 
 

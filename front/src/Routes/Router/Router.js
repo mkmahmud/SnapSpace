@@ -7,6 +7,7 @@ import Main from '../../Layout/Main';
 import Home from '../../Pages/Home/Home';
 import SignIn from '../../Pages/SignIn/SignIn';
 import SignUp from '../../Pages/SignUp/SignUp';
+import Wellcome from '../../Pages/SignUp/Wellcome/Wellcome';
 
 
 
@@ -28,6 +29,10 @@ const Router = () => {
                 {
                     path:'/signup',
                     element:<SignUp></SignUp>
+                },
+                {
+                    path:'wellcome',
+                    element:<Wellcome></Wellcome>
                 }
             ]
         }
