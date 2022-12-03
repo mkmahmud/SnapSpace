@@ -71,8 +71,8 @@ const SignIn = () => {
 
 
     return (
-        <div className='bg-[#1F2C56] text-white text-left px-40 py-20 h-[80vh]'>
-            <div className="login w-[400px]">
+        <div className='bg-[#1F2C56] text-white text-left px-40 sm:px-5 py-20 h-[80vh]'>
+            <div className="login w-[400px] sm:w-full">
                 <h2 className='text-[#C6D6FF] text-4xl py-2'>Log In</h2>
                 <p className='py-4'>Please enter your details to log in</p>
                 <form>

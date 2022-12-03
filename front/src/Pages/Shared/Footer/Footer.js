@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="items-center grid-flow-col">
                     <h1 className='text-[80px] text-[#FFFFFF] font-bold'>SnapSpace</h1>
                 </div>
-                <div className="md:place-self-center md:justify-self-end">
+                <div className="md:place-self-center md:justify-self-end sm:py-10">
                     <div className="grid grid-flow-col gap-4">
                         <Link className='text-white'><u>Get In touch</u></Link>
                         <Link className='text-white'><u>About </u> Us</Link>

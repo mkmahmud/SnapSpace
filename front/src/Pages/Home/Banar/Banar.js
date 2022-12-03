@@ -3,10 +3,10 @@ import banarimage  from '../../../Assets/Illustration.png'
 
 const Banar = () => {
     return (
-        <div className=" py-20">
+        <div className=" py-20 sm:py-0 overflow-hidden">
             
             <div className="xl:flex justify-between items-center md:block">
-                <div className='text-left px-20'>
+                <div className='text-left px-5 sm:py-10'>
                     <h1 className="text-5xl font-bold">We believe <br />
                         Artificial Intelligence <br /> 
                         will revolutionise <br />

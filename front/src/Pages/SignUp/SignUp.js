@@ -75,8 +75,8 @@ const SignUp = () => {
 
 
     return (
-        <div className='bg-[#1F2C56] text-white text-left px-40 py-20 '>
-            <div className="login w-[400px]">
+        <div className='bg-[#1F2C56] text-white text-left sm:px-5 px-40 py-20 '>
+            <div className="login w-[400px] sm:w-full">
                 <div className='py-5'>
                     <h2 className='text-[#C6D6FF] text-4xl py-2'>Welcome aboard</h2>
                     <p className='py-4'>Please enter your details using the fields below:</p>
