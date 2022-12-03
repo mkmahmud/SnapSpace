@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="md:place-self-center md:justify-self-end sm:py-10">
                     <div className="grid grid-flow-col gap-4">
                         <Link className='text-white'><u>Get In touch</u></Link>
-                        <Link className='text-white'><u>About </u> Us</Link>
+                        <Link to='/about' className='text-white'><u>About </u> Us</Link>
                         <Link className='text-white'><u>Terms</u></Link>
                         <Link className='text-white'><u>Privacy</u></Link>
                     </div>

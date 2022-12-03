@@ -4,6 +4,7 @@ import {
     RouterProvider
   } from "react-router-dom";
 import Main from '../../Layout/Main';
+import AboutUs from '../../Pages/Aboutus/AboutUs';
 import Home from '../../Pages/Home/Home';
 import SignIn from '../../Pages/SignIn/SignIn';
 import SignUp from '../../Pages/SignUp/SignUp';
@@ -33,6 +34,10 @@ const Router = () => {
                 {
                     path:'wellcome',
                     element:<Wellcome></Wellcome>
+                },
+                {
+                    path:'about',
+                    element:<AboutUs></AboutUs>
                 }
             ]
         }
