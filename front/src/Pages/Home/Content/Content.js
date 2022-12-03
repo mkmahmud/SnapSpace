@@ -12,24 +12,24 @@ const Content = () => {
                     workplace requirements by utilising its deep <br /> learning from its extensive data set of the best <br />
                     quality floorplans.</p>
             </div>
-            <div className="content-body flex justify-between py-40 sm:block items-center">
-                <div className="left w-1/2 sm:w-full px-20">
+            <div className="content-body lg:flex justify-between py-40 sm:block items-center">
+                <div className="left lg:w-1/2 sm:w-full px-20">
                     <img src={contentImage} className='block m-auto' alt="" />
                 </div>
-                <div className="Right w-1/2 sm:w-full">
+                <div className="Right lg:w-1/2 sm:w-full">
                     <div className="sm:ml-5 block border-b-2 text-left py-8 my-10 border-[#8DAEFF]">
                         <h2 className='text-[36px]'>Bespoke layouts</h2>
-                        <p className='text-[20px] w-1/2'>Produces layouts that match your precise requirements</p>
+                        <p className='text-[20px] lg:w-1/2'>Produces layouts that match your precise requirements</p>
                     </div>
                     <div className="sm:ml-5 block border-b-2 text-left py-8 my-10 border-[#8DAEFF]">
                         <h2 className='text-[36px]'>Space efficiency</h2>
-                        <p className='text-[20px] w-1/2'>Through smart analysis, SnapSpace can produce the most efficient layout ensuring maximum value from the space
+                        <p className='text-[20px] lg:w-1/2'>Through smart analysis, SnapSpace can produce the most efficient layout ensuring maximum value from the space
 
                         </p>
                     </div>
                     <div className="sm:ml-5 block border-b-2 text-left py-8 my-10 border-[#8DAEFF]">
                         <h2 className='text-[36px]'>Fast turnaround</h2>
-                        <p className='text-[20px] w-1/2'>Quickly does the heavy lifting of fitting everything into the space giving you more time to focus on the key decision.
+                        <p className='text-[20px] lg:w-1/2'>Quickly does the heavy lifting of fitting everything into the space giving you more time to focus on the key decision.
 
                         </p>
                     </div>
