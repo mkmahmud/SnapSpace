@@ -71,13 +71,13 @@ const SignIn = () => {
 
 
     return (
-        <div className='bg-[#1F2C56] text-white text-left px-40 sm:px-5 py-20 h-[80vh]'>
-            <div className="login w-[400px] sm:w-full">
+        <div className='bg-[#1F2C56] text-white text-left lg:px-40 sm:px-5 lg:py-20 h-[80vh]'>
+            <div className="login lg:w-[400px] sm:w-full">
                 <h2 className='text-[#C6D6FF] text-4xl py-2'>Log In</h2>
                 <p className='py-4'>Please enter your details to log in</p>
                 <form>
-                    <input type="email" placeholder="Email" onChange={(e) => dispatch({ type: 'input', payload: { name: e.target.name, value: e.target.value } })} name='email' className="bg-[#4C5678] input input-bordered w-full my-2" /> <br />
-                    <input type="password" placeholder="Password" onChange={(e) => dispatch({ type: 'input', payload: { name: e.target.name, value: e.target.value } })} name='password' className="bg-[#4C5678] input input-bordered w-full my-2" /> <br />
+                    <input type="email" placeholder="Email" onChange={(e) => dispatch({ type: 'input', payload: { name: e.target.name, value: e.target.value } })} name='email' className="bg-[#4C5678] input input-bordered lg:w-full my-2" /> <br />
+                    <input type="password" placeholder="Password" onChange={(e) => dispatch({ type: 'input', payload: { name: e.target.name, value: e.target.value } })} name='password' className="bg-[#4C5678] input input-bordered lg:w-full my-2" /> <br />
                     <p className='text-sm py-4'>I don’t have an account. <Link to='/signup' className='font-bold'>Sign up here</Link></p>
 
                     {
